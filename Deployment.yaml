@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: finalproject
+  labels:
+    app: MTproject
+spec:
+  selector:
+    matchLabels:
+      app: MTproject
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: MTproject
+    spec:
+      containers:
+        - name: finalproject
+          image: chalsi/project:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080

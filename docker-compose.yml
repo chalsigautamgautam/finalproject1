@@ -3,5 +3,5 @@ services:
   project:
     build:  .
     ports:
-      - 8086:8085
+      - 8086:8089
     

@@ -75,7 +75,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>doc-data-final</finalName>
 	</build>
 
 </project>

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: finalproject
-          image: chalsi/project:latest
+          image: chalsi/gautm:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 8085
